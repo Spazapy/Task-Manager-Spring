@@ -5,25 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="849649eb-d8c4-4f89-9220-e4257b7f05f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/task-manager-spring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/src/main/java/com/example/taskmanager/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmanager/src/test/java/com/example/taskmanager/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taskmanager/src/main/java/com/example/taskmanager/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taskmanager/src/main/java/com/example/taskmanager/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taskmanager/src/main/java/com/example/taskmanager/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taskmanager/src/main/java/com/example/taskmanager/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taskmanager/src/main/java/com/example/taskmanager/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taskmanager/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskmanager/src/main/java/com/example/taskmanager/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/src/main/java/com/example/taskmanager/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskmanager/src/main/java/com/example/taskmanager/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/src/main/java/com/example/taskmanager/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskmanager/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskmanager/target/classes/com/example/taskmanager/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskmanager/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +50,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="development" />
-                    <option name="lastUsedInstant" value="1753709646" />
+                    <option name="lastUsedInstant" value="1753858651" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1753709645" />
+                    <option name="lastUsedInstant" value="1753858647" />
                   </RecentBranch>
                 </list>
               </option>
@@ -86,20 +79,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DemoApplication.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHELLCHECK.PATH": "I do mind",
-    "git-widget-placeholder": "development",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;I do mind&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Marcel\IdeaProjects\Task-Manager-Spring\taskmanager\src\main\java\com\example\taskmanager" />
@@ -111,7 +105,7 @@
       <module name="taskmanager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.taskmanager.*" />
+          <option name="PATTERN" value="com.example.taskmanager.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
